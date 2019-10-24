@@ -5,8 +5,7 @@
       :style="styles"
       class="dip">
       <div
-        class="dip-mask"
-        @click="close"></div>
+        class="dip-mask"></div>
       <div
         v-if="title"
         class="dip-title">{{ title }}</div>
